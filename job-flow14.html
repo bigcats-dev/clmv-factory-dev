@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CLMV โรงงาน</title>
+	<link rel="icon" type="image/x-icon" href="https://clmv.servicesaes.com/favicon.ico">
+	<link href="css/bootstrap.min.css" rel="stylesheet"> 
+	<link href="css/main.css" rel="stylesheet">  
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> 
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>  
+    <link rel="stylesheet" href="js/choices.js/public/assets/styles/choices.css">
+ 
+
+
+</head>
+<body> 
+    <div id="root">
+        <div class="w-100 min-vh-100 fade-in">
+            <div>
+                <div class="w-100 px-0 position-fixed d-flex justify-content-between bg-primary shadow px-4 py-2 body" style="height: 60px; z-index: 1010;">
+                    <div class="d-flex align-items-center">
+                        <label class="d-block d-lg-none d-xl-none me-3"><span class="icon text-white text-18 pointer"></span></label>
+                        <div class="d-none d-sm-none d-md-flex d-lg-flex d-xl-flex text-white"><small>หน้าหลัก</small><small class="ms-2"> &gt; งานราชการ</small><small class="ms-2"></small></div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <div class="dropdowns">
+                            <span class="dropbtns pointer">
+                                <label class="icon text-18 p-2 text-white">
+                                    <i class="fal fa-bell"></i>
+                                    <p>8</p>
+                                </label>
+                            </span>
+                            <div class="dropdowns-content wpx-250 bg-white" style="margin-top: 20px;">
+                                <div class="list-group">
+                                    <a href="alert-view.html" class="list-group-item">
+                                        <div class="row g-0 align-items-center"> 
+                                            <div class="col-12">
+                                                <div class="text-danger">แจ้งเตือนเอกสาร Visa หมดอายุ</div>
+                                                <div class="text-muted small mt-1">ข้อมูลเอกสารหมดอายุ</div>
+                                                <div class="text-muted small mt-1">03/02/2567 14:20</div>
+                                            </div>
+                                        </div>
+                                    </a> 
+                                    <a href="alert-view.html" class="list-group-item">
+                                        <div class="row g-0 align-items-center"> 
+                                            <div class="col-12">
+                                                <div class="text-danger">แจ้งเตือนเอกสาร Passport  หมดอายุ</div>
+                                                <div class="text-muted small mt-1">ข้อมูลเอกสารหมดอายุ</div>
+                                                <div class="text-muted small mt-1">03/02/2567 14:20</div>
+                                            </div>
+                                        </div>
+                                    </a> 
+                                    <div class="dropdown-menu-footer">
+                                        <a href="alert-work.html" class="text-muted">ดูการแจ้งเตือนทั้งหมด</a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        
+                        <div class="ps-3"><small class="me-2 align-items-center d-none d-sm-flex d-md-flex d-lg-flex d-xl-flex text-white">admin@mail.com</small></div>
+                        <div class="wpx-40 hpx-40 rounded-circle bg-secondary"><img src="https://clmv.servicesaes.com/static/media/logo.bc9cec12c29fa740a3ed.png" style="width: 40px;"></div>
+                        <div class="dropdowns">
+                            <span class="dropbtns pointer"><label class="icon text-18 p-2 text-white"><i class="fal fa-chevron-down"></i></label></span>
+                            <div class="dropdowns-content wpx-250 bg-white"><a class="pointer"><label class="icon mx-2"><i class="fal fa-sign-out-alt"></i></label>ออกจากระบบ</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pro-sidebar full-screen pt-0 lg toggled">
+                    <div class="pro-sidebar-inner">
+                        <div class="pro-sidebar-layout">
+                            <div class="d-flex justify-content-center pt-2"><img src="https://clmv.servicesaes.com/static/media/logo.bc9cec12c29fa740a3ed.png" style="width: 170px;"></div>
+                            <div class="w-100 text-center mb-3"><small class="text-secondary">V.1.0.0</small></div>
+                           <nav class="pro-menu overflow-scroll none-scroll sidebar-h">
+                                <ul>
+                                    <li class="pro-menu-item">
+                                        <div class="pro-inner-item" tabindex="0" role="button"><span class="pro-icon-wrapper"><span class="pro-icon"><i class="fal fa-user-circle"></i></i></span></span><span class="pro-item-content"><a href="profile-factory.html">โปรไฟล์ โรงงาน          
+                                        </a></span></div>
+                                    </li>  
+                                    <li class="pro-menu-item">
+                                        <div class="pro-inner-item" tabindex="0" role="button"><span class="pro-icon-wrapper"><span class="pro-icon"><i class="fal fa-file-alt"></i></span></span><span class="pro-item-content"><a href="index.html">ทะเบียนลูกจ้าง
+                                        </a></span></div>
+                                    </li>  
+                                    <li class="pro-menu-item">
+                                        <div class="pro-inner-item" tabindex="0" role="button"><span class="pro-icon-wrapper"><span class="pro-icon"><i class="fal fa-file-alt"></i></span></span><span class="pro-item-content"><a href="alert-work.html">รายการแจ้งเตือนเอกสารหมดอายุ
+                                        </a></span></div>
+                                    </li> 
+                                    <li class="pro-menu-item active">
+                                        <div class="pro-inner-item" tabindex="0" role="button"><span class="pro-icon-wrapper"><span class="pro-icon"><i class="fal fa-file-alt"></i></span></span><span class="pro-item-content"><a href="government.html">งานราชการ
+                                        </a></span></div>
+                                    </li> 
+                                    <li class="pro-menu-item">
+                                        <div class="pro-inner-item" tabindex="0" role="button">
+                                            <span class="pro-icon-wrapper">
+                                                <span class="pro-icon"><i class="fal fa-cog"></i></span>
+                                            </span>
+                                            <span class="pro-item-content"><a href="#">การตั้งค่า</a></span>
+                                        </div> 
+                                        <ul>      
+                                            <li class="pro-menu-item">
+                                                <div class="pro-inner-item"> 
+                                                    <a href="profile-factory-edit.html">ตั้งค่าโปรไฟล์โรงงาน</a>
+                                                </div>
+                                            </li>    
+                                            <li class="pro-menu-item">
+                                                <div class="pro-inner-item"> 
+                                                    <a href="work-set.html">ตั้งค่าเมนูงานราชการ</a>
+                                                </div>
+                                            </li>    
+                                            <li class="pro-menu-item">
+                                                <div class="pro-inner-item"> 
+                                                    <a href="guide-set.html">ตั้งค่าคำแนะนำ </a>
+                                                </div>
+                                            </li>   
+                                            <li class="pro-menu-item">
+                                                <div class="pro-inner-item"> 
+                                                    <a href="attached-set.html">เอกสารแนบ</a>
+                                                </div>
+                                            </li>    
+                                            <li class="pro-menu-item">
+                                                <div class="pro-inner-item"> 
+                                                    <a href="expiration-notification.html">การแจ้งเตือนหมดอายุเอกสาร</a>
+                                                </div>
+                                            </li>    
+                                        </ul>  
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="overlay" role="button" tabindex="0" aria-label="overlay"></div>
+                </div>
+            </div>
+            
+            <div class="body bg-light min-vh-100">
+                <div class="p-3"> 
+
+                    <div class="d-flex mx-0 align-items-center justify-content-between test mb-3">
+                        <h3 class="mb-3"><b>รับเรื่อง</b></h3> 
+                    </div>
+
+                    <div class="card shadow border-0 mb-5" style="background: rgb(255, 255, 255);">
+                        <div class="p-3">
+                            <div class="w-100"> 
+                                
+                                <div class="row mt-3">
+                                    <div class="col-12 col-md-6 d-flex align-items-center mb-3">
+                                        <span class="wpx-150">เลขเรื่อง<span class="text-danger mx-1">*</span></span><input class="form-control mt-1" type="text" value="WJ-01021230800001" disabled>
+                                    </div> 
+                                    <div class="col-12 col-md-6 d-flex align-items-center mb-3 position-relative">
+                                        <span class="wpx-150">วันที่รับเรื่อง<span class="text-danger mx-1">*</span></span><input class="form-control mt-1" type="text" value="02/02/2567" disabled>
+                                        <i class="fal fa-calendar-alt iconi"></i>
+                                    </div> 
+                                    <div class="col-12 col-md-6 d-flex align-items-center mb-3 position-relative">
+                                        <span class="wpx-150">สาขา<span class="text-danger mx-1">*</span></span> 
+                                        <select class="form-control mt-1">
+                                            <option value="0">สาขา</option>
+                                            <option value="1">สาขา 1</option>
+                                            <option value="2">สาขา 2</option>
+                                            <option value="3">สาขา 3</option>
+                                            <option value="4">สาขา 4</option>
+                                        </select>
+                                        <i class="fal fa-chevron-down iconi"></i>
+                                    </div> 
+
+                                    <div class="col-12 col-md-6 d-flex align-items-center mb-3 position-relative">
+                                        <span class="wpx-150">ที่ทำการตรวจคนเข้าเมือง<span class="text-danger mx-1">*</span></span> 
+                                        <select class="form-control mt-1">
+                                            <option value="0">ที่ทำการตรวจคนเข้าเมือง</option>
+                                            <option value="1">ที่ทำการตรวจคนเข้าเมือง 1</option>
+                                            <option value="2">ที่ทำการตรวจคนเข้าเมือง 2</option>
+                                            <option value="3">ที่ทำการตรวจคนเข้าเมือง 3</option>
+                                            <option value="4">ที่ทำการตรวจคนเข้าเมือง 4</option>
+                                        </select>
+                                        <i class="fal fa-chevron-down iconi"></i>
+                                    </div> 
+                                    
+
+                                    <div class="col-12 col-md-6 d-flex align-items-center mb-3">
+                                        <span class="wpx-150">ประเภทการยื่น<span class="text-danger mx-1">*</span></span> 
+
+                                        <input type="radio" name="customer" id="customerGroupId_1" value="1" checked="checked"  >
+                                        <label for="customerGroupId_1">&nbsp;ยื่นผ่านนายหน้า  </label>
+
+                                        <input type="radio" name="customer" id="customerGroupId_2" value="2"   class="ms-2" >
+                                        <label for="customerGroupId_2">&nbsp;นายจ้างยื่นเอง </label>
+                                    </div> 
+
+                                    <div class="col-12 col-md-6 d-flex align-items-center mb-3 refer position-relative">
+                                        <span class="wpx-150">นายหน้า<span class="text-danger mx-1">*</span></span> 
+                                        <select class="form-control mt-1">
+                                            <option value="0">นายหน้า</option>
+                                            <option value="1">นายหน้า 1</option>
+                                            <option value="2">นายหน้า 2</option>
+                                            <option value="3">นายหน้า 3</option>
+                                            <option value="4">นายหน้า 4</option>
+                                        </select>
+                                        <i class="fal fa-chevron-down iconi"></i>
+                                    </div> 
+                                    
+                                    <div class="col-12 col-md-12 d-flex align-items-center mb-3">
+                                        <span class="wpx-150">ประเภทการออกบิล <span class="text-danger mx-1">*</span></span> 
+
+                                        <input type="radio" name="vat.group.id" id="vat_1" value="1" checked="checked"  >
+                                        <label for="vat_1">&nbsp;NO VAT  </label>
+
+                                        <input type="radio" name="vat.group.id" id="vat_2" value="2"   class="ms-2" >
+                                        <label for="vat_2">&nbsp;VAT </label>
+                                    </div>  
+                                   
+                                </div> 
+                                <hr>
+                                
+                                <div class="col-12 text-center">
+                                    <div class="row justify-content-center">
+                                        <div class="d-flex mx-0 align-items-center justify-content-between test mb-3">
+                                            <h5 class="mb-3"><b>ข้อมูลนายจ้าง </b></h5>
+                                        </div>
+
+                                        
+                                        <div class="row justify-content-center">
+                                            <div class="col-12 col-md-12 d-flex align-items-center mb-3">
+                                                <span class="wpx-250">ค้นหาจาก <span class="text-danger mx-1">*</span></span> 
+        
+                                                <input type="radio" name="search.group.id" id="search_1" value="1" checked="checked">
+                                                <label for="search_1">&nbsp;ในระบบ  </label>
+        
+                                                <input type="radio" name="search.group.id" id="search_2" value="2" class="ms-2">
+                                                <label for="search_2">&nbsp;กรมพัฒนาธุรกิจการค้า
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        
+                                        <div class="col-12 col-md-6 d-flex align-items-center mb-3 position-relative">
+                                            <span class="wpx-250">เลขนิติบุคคล/ <br>
+                                                เลขประจำตัวผู้เสียภาษี(13 หลัก)
+                                                <span class="text-danger mx-1">*</span>
+                                            </span>
+                                            <input class="form-control mt-1" type="text" value="129-20202-202" >
+                                            <i class="fal fa-search iconi"></i>
+                                        </div> 
+                                        <div class="col-12 col-md-6 d-flex align-items-center mb-3">
+                                            <span class="wpx-250">
+                                                ชื่อนายจ้าง 
+                                            </span>
+                                            <input class="form-control mt-1" type="text"  disabled> 
+                                        </div> 
+                                        <div class="col-12 col-md-6 d-flex align-items-center mb-3">
+                                            <span class="wpx-250">
+                                                English 
+                                            </span>
+                                            <input class="form-control mt-1" type="text"  disabled> 
+                                        </div> 
+
+                                        <div class="col-12 col-md-6 d-flex align-items-center mb-3">
+                                            <span class="wpx-250">
+                                                ประเภทนายจ้าง 
+                                            </span>
+                                            <input class="form-control mt-1" type="text"  disabled> 
+                                        </div> 
+
+                                        <div class="col-12 col-md-12 d-block align-items-center mb-3">
+                                            <button class="btn btn-primary btnx">ซ่อนรายละเอียด </button>
+                                        </div> 
+ 
+
+                                        <hr>
+                                        <div class="d-flex mx-0 align-items-center justify-content-between test mb-3">
+                                            <h5 class="mb-3"><b>ข้อมูลรายละเอียดรับเรื่อง</b></h5>
+                                        </div>
+
+                                        <div class="col-12 col-md-12 mb-3">
+                                            <div class="row">
+                                                <div class="col-4 text-end">
+                                                    <label class="pt-2">
+                                                        ดำเนินการเรื่อง<span class="text-danger mx-1">*</span>
+                                                    </label> 
+                                                </div>
+                                                <div class="col-4 position-relative">
+                                                    <select name="conWork" id="cbxConWorkId" class="form-control  " disabled>
+                                                        <option value="0">--รายการรับเรื่องทั้งหมด--</option>
+                                                        <option value="1">ขอใบอนุญาตทำงานแรงงานต่างด้าว</option> 
+                                                        <option value="2">ขอนำเข้าแรงงานต่างด้าว (MOU)</option> 
+                                                        <option value="3">แจ้งอยู่เกิน 90 วัน (ตม.)</option> 
+                                                        <option value="4">แจ้งอยู่เกิน 90 วัน + ต่อ Work </option> 
+                                                        <option value="5">แจ้งอยู่เกิน 90 วัน + ต่อ VISA </option> 
+                                                        <option value="6">แจ้งอยู่เกิน 90 วัน + ต่อ Work + ต่อ VISA</option> 
+                                                        <option value="7">ต่อ Passport</option> 
+                                                        <option value="8">แจ้งเข้าที่พัก (ตม.)</option> 
+                                                        <option value="9">ย้ายดวงตรา VISA</option> 
+                                                        <option value="10">เปลี่ยนเล่ม Passport</option> 
+                                                        <option value="11">ต่ออายุใบอนุญาตทำงาน 1 ปี และ 2 ปี</option> 
+                                                        <option value="12">แจ้งคนต่างด้าวออกจากงาน บต.53</option> 
+                                                        <option value="13">แจ้งเข้าทำงานเปลี่ยนนายจ้าง</option> 
+                                                        <option value="14" selected>แก้ไขเปลี่ยนแปลงใบอนุญาตทำงาน บต.44,บต.46 (นายจ้างเดิมลูกจ้างเดิมยืนแก้ไขเพิ่มเติม)</option> 
+                                                        <option value="15">เปลี่ยน/เพิ่ม ประเภทงาน เปลี่ยนจากงานอื่นมาเป็น กรรมกร กับ ขายของหน้าร้าน บต.22</option> 
+                                                        <option value="16">เปลี่ยน/เพิ่ม ประเภทงาน เปลี่ยนหรือเพิ่มประเภทงานตามบัญชี 2,3 บต.45</option> 
+                                                        <option value="17">ต่อ VISA 1 ปี/2 ปี (นำเข้า MOU และตามมติ ครม. ในประเทศ)</option> 
+                                                        <option value="18">ตี VISA หน้าด่าน</option> 
+                                                        <option value="19">ขึ้นทะเบียนแรงงานต่างต้าว มติ 5 ก.ค. 66 (คนเถื่อน)</option> 
+                                                        <option value="20">ทำบัตรชมพู</option> 
+                                                        <option value="21">ซื้อประกันคนงานต่างด้าว</option> 
+                                                    </select> 
+                                                    <i class="fal fa-chevron-down iconi"></i>
+                                                </div>
+                                            </div>
+                                        </div> <div class="col-12 col-md-12 mb-3">
+                                            <div class="row">
+                                                <div class="col-4 text-end">
+                                                    <label class="pt-2">
+                                                        สำนักงานจัดหางาน<span class="text-danger mx-1">*</span>
+                                                    </label> 
+                                                </div>
+                                                <div class="col-4 position-relative">
+                                                    <select name="conWork" id="cbxConWorkId" class="form-control  " disabled>
+                                                        <option value="0">--กรุณาเลือก สำนักงานจัดหางาน--</option>
+                                                        <option value="1">สำนักงานจัดหางาน เขต 1</option>
+                                                        <option value="2">สำนักงานจัดหางาน เขต 2</option>
+                                                        <option value="3" selected>สำนักงานจัดหางาน เขต 3</option>
+                                                        <option value="4">สำนักงานจัดหางาน เขต 4</option> 
+                                                        <option value="4">สำนักงานจัดหางาน เขต 5</option> 
+                                                        <option value="4">สำนักงานจัดหางาน เขต 6</option> 
+                                                        <option value="4">สำนักงานจัดหางาน เขต 7</option> 
+                                                        <option value="4">สำนักงานจัดหางาน เขต 8</option> 
+                                                        <option value="4">สำนักงานจัดหางาน เขต 9</option> 
+                                                        <option value="4">สำนักงานจัดหางาน เขต 10</option>  
+                                                        <option value="4">สำนักงานจัดหางานจังหวัดกาญจนบุรี</option> 
+                                                        <option value="4">สำนักงานจัดหางานจังหวัดกำแพงเพชร</option> 
+                                                    </select> 
+                                                    <i class="fal fa-chevron-down iconi"></i>
+                                                </div>
+                                            </div>
+                                        </div> 
+ 
+                                         
+
+                                        <div class="col-12 col-md-12 d-flex align-items-center mb-3 position-relative work1 justify-content-center">
+                                            <table class="table table-bordered" style="width: 600px;">
+                                                <thead>
+                                                    <tr>
+                                                        <th width="100px;" class="bg-info text-white">สัญชาติ<span class="text-red">*</span></th>
+                                                        <th width="120px;" class="bg-info text-white">จำนวนคน<span class="text-red">*</span></th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody> 
+                                                    <tr>
+                                                        <td align="left"> 
+                                                            <select name="jobDetailCountry" id="jobDetailCountry_0" class=" form-control  " disabled>
+                                                                <option value="">--เลือกสัญชาติ--</option> 
+                                                                <option value="1" data-customercharge="0" data-brokercharge="0" selected>กัมพูชา</option> 
+                                                                <option value="3" data-customercharge="0" data-brokercharge="0">ลาว</option> 
+                                                                <option value="2" data-customercharge="0" data-brokercharge="0">เมียนมา</option>  
+                                                                <option value="4" data-customercharge="0" data-brokercharge="0">เวียดนาม</option> 
+                                                            </select> 
+                                                        </td>
+                                                        <td align="center">
+                                                            <input type="text" name="jobDetailTotalAmount" id="jobDetailTotalAmount_0" value="1"   class="txt_amount form-control input-default" style="width: 98%;text-align: right;" disabled>
+                                                        </td>
+                                                    </tr> 
+                                                    <tr>
+                                                        <td align="left"> 
+                                                            <select name="jobDetailCountry" id="jobDetailCountry_0" class=" form-control  " disabled>
+                                                                <option value="">--เลือกสัญชาติ--</option> 
+                                                                <option value="1" data-customercharge="0" data-brokercharge="0" >กัมพูชา</option> 
+                                                                <option value="3" data-customercharge="0" data-brokercharge="0" selected>ลาว</option> 
+                                                                <option value="2" data-customercharge="0" data-brokercharge="0">เมียนมา</option>  
+                                                                <option value="4" data-customercharge="0" data-brokercharge="0">เวียดนาม</option> 
+                                                            </select> 
+                                                        </td>
+                                                        <td align="center">
+                                                            <input type="text" name="jobDetailTotalAmount" id="jobDetailTotalAmount_0" value="4"   class="txt_amount form-control input-default" style="width: 98%;text-align: right;" disabled>
+                                                        </td>
+                                                    </tr> 
+                                                    
+                                                </tbody>
+                                            </table>
+                                        </div> 
+
+                                        <hr>
+                                        
+                                        <div class="d-flex mx-0 align-items-center justify-content-between test mb-3">
+                                            <h5 class="mb-3"><b>รายชือลูกจ้าง</b></h5>
+                                        </div>   
+
+                                        <div class="col-12 col-md-12 d-flex align-items-center mb-3">
+                                            <span class="wpx-180">ใช้รายชือลูกจ้าง <span class="text-danger mx-1">*</span></span> 
+        
+                                            <input type="radio" name="nameList" id="nameList_1" value="1">
+                                            <label for="nameList_1">&nbsp;รายเก่า  </label>
+        
+                                            <input type="radio" name="nameList" id="nameList_2" value="2" class="ms-2">
+                                            <label for="nameList_2">&nbsp;รายใหม่ </label>
+                                        </div>
+        
+                                        <div class="col-12 col-md-12 d-none align-items-center mb-3 position-relative name-list1 justify-content-center">
+                                            <table class="table table-striped table-hover table-bordered tb-x" style="width: 100%;">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="bg-primary text-white" style="vertical-align: middle;width: 20px;" rowspan="2">ลำดับ</th>
+                                                        <th class="bg-primary text-white" style="vertical-align: middle;width: 200px;" rowspan="2">เลขประจำตัว 13 หลัก</th> 
+                                                        <th class="bg-primary text-white" style="vertical-align: middle;width: 200px;" rowspan="2">ชื่อ-นามสกุลลูกจ้าง</th>  
+                                                        <th class="bg-primary text-white" colspan="4">เอกสารลูกจ้าง</th>
+                                                    </tr> 
+                                                </thead>
+                                                <tbody> 
+                                                    <tr> 
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox">    
+                                                            </label>  
+                                                        </td>
+                                                        <td>1</td>
+                                                        <td>ดอน ไม	</td> 
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">Passport</span>
+                                                            </label>  
+                                                        </td>
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">Visa</span>
+                                                            </label>   
+                                                        </td>
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">Work permit</span>
+                                                            </label>    
+                                                        </td> 
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">รูปถ่าย</span>
+                                                            </label>    
+                                                        </td>
+                                                    </tr>    
+                                                    <tr> 
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox">    
+                                                            </label>  
+                                                        </td>
+                                                        <td>2</td>
+                                                        <td>ดอน ไม	</td> 
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">Passport</span>
+                                                            </label>  
+                                                        </td>
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">Visa</span>
+                                                            </label>   
+                                                        </td>
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">Work permit</span>
+                                                            </label>    
+                                                        </td> 
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">รูปถ่าย</span>
+                                                            </label>    
+                                                        </td>
+                                                    </tr>    
+                                                    <tr> 
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox">    
+                                                            </label>  
+                                                        </td>
+                                                        <td>3</td>
+                                                        <td>ดอน ไม	</td> 
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">Passport</span>
+                                                            </label>  
+                                                        </td>
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">Visa</span>
+                                                            </label>   
+                                                        </td>
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">Work permit</span>
+                                                            </label>    
+                                                        </td> 
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">รูปถ่าย</span>
+                                                            </label>    
+                                                        </td>
+                                                    </tr>    
+                                                    <tr> 
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox">    
+                                                            </label>  
+                                                        </td>
+                                                        <td>4</td>
+                                                        <td>ดอน ไม	</td> 
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">Passport</span>
+                                                            </label>  
+                                                        </td>
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">Visa</span>
+                                                            </label>   
+                                                        </td>
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">Work permit</span>
+                                                            </label>    
+                                                        </td> 
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">รูปถ่าย</span>
+                                                            </label>    
+                                                        </td>
+                                                    </tr>    
+                                                    <tr> 
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox">    
+                                                            </label>  
+                                                        </td>
+                                                        <td>5</td>
+                                                        <td>ดอน ไม	</td> 
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">Passport</span>
+                                                            </label>  
+                                                        </td>
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">Visa</span>
+                                                            </label>   
+                                                        </td>
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">Work permit</span>
+                                                            </label>    
+                                                        </td> 
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">รูปถ่าย</span>
+                                                            </label>    
+                                                        </td>
+                                                    </tr>     
+                                                </tbody>
+                                            </table>
+                                        </div> 
+                                        <div class="col-12 col-md-12 d-none align-items-center mb-3 position-relative name-list2 justify-content-center">
+                                            <table class="table table-striped table-hover table-bordered tb-x" style="width: 100%;">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="bg-primary text-white" style="vertical-align: middle;width: 20px;" rowspan="2">ลำดับ</th>
+                                                        <th class="bg-primary text-white" style="vertical-align: middle;width: 200px;" rowspan="2">เลขประจำตัว 13 หลัก</th> 
+                                                        <th class="bg-primary text-white" style="vertical-align: middle;width: 200px;" rowspan="2">Name List</th> 
+                                                        <th class="bg-primary text-white" colspan="4">เอกสารลูกจ้าง</th>
+                                                    </tr> 
+                                                </thead>
+                                                <tbody> 
+                                                    <tr> 
+                                                        <td>1</td>
+                                                        <td><input type="text" class="form-control"> </td>
+                                                        <td><input type="text" class="form-control"> </td>
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">Passport</span>
+                                                            </label>  
+                                                        </td>
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">Visa</span>
+                                                            </label>   
+                                                        </td>
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">Work permit</span>
+                                                            </label>    
+                                                        </td> 
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">รูปถ่าย</span>
+                                                            </label>    
+                                                        </td>
+                                                    </tr>   
+                                                    <tr> 
+                                                        <td>2</td>
+                                                        <td><input type="text" class="form-control"> </td>
+                                                        <td><input type="text" class="form-control"> </td>
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">Passport</span>
+                                                            </label>  
+                                                        </td>
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">Visa</span>
+                                                            </label>   
+                                                        </td>
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">Work permit</span>
+                                                            </label>    
+                                                        </td> 
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">รูปถ่าย</span>
+                                                            </label>    
+                                                        </td>
+                                                    </tr>   
+                                                    <tr> 
+                                                        <td>3</td>
+                                                        <td><input type="text" class="form-control"> </td>
+                                                        <td><input type="text" class="form-control"> </td>
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">Passport</span>
+                                                            </label>  
+                                                        </td>
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">Visa</span>
+                                                            </label>   
+                                                        </td>
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">Work permit</span>
+                                                            </label>    
+                                                        </td> 
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">รูปถ่าย</span>
+                                                            </label>    
+                                                        </td>
+                                                    </tr>   
+                                                    <tr> 
+                                                        <td>4</td>
+                                                        <td><input type="text" class="form-control"> </td>
+                                                        <td><input type="text" class="form-control"> </td>
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">Passport</span>
+                                                            </label>  
+                                                        </td>
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">Visa</span>
+                                                            </label>   
+                                                        </td>
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">Work permit</span>
+                                                            </label>    
+                                                        </td> 
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">รูปถ่าย</span>
+                                                            </label>    
+                                                        </td>
+                                                    </tr>   
+                                                    <tr> 
+                                                        <td>5</td>
+                                                        <td><input type="text" class="form-control"> </td>
+                                                        <td><input type="text" class="form-control"> </td>
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">Passport</span>
+                                                            </label>  
+                                                        </td>
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">Visa</span>
+                                                            </label>   
+                                                        </td>
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">Work permit</span>
+                                                            </label>    
+                                                        </td> 
+                                                        <td>
+                                                            <label>      
+                                                                <input type="checkbox" style="position: absolute;margin-top: -10px;" >   
+                                                                <span class="ps-4 pt-4">รูปถ่าย</span>
+                                                            </label>    
+                                                        </td>
+                                                    </tr>    
+                                                </tbody>
+                                            </table>
+                                        </div> 
+
+                                        <hr>
+                                            
+            
+                                
+                                 
+                                        <div class="col-12 col-sm-8 col-md-6 col-xl-5 col-xxl-4 mx-auto">
+                                            <div class="d-flex mt-5">
+                                                <div class="w-50 pe-1"><button type="button" class="btn btn-outline-primary w-100 mb-3">ยกเลิก</button></div>
+                                                <div class="w-50 ps-1"><a href="index.html" class="btn btn-primary w-100 mb-3">บันทึก</a></div>
+                                            </div>
+                                        </div>
+                                
+
+                                    </div>
+                                </div>
+                                  
+
+                              
+                                 
+
+                            </div> 
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div> 
+
+      
+     
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js" ></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/choices.js/public/assets/scripts/choices.js"></script>
+    <script src="js/form-element-select.js"></script>
+
+	<script>
+        
+		$('.pro-menu .pro-menu-item').click(function(){     
+			$(".pro-menu .pro-menu-item").removeClass("active");
+			$(this).addClass("active");
+		}); 
+
+        $('.modalCH').click(function(){     
+			$("#modalCH").modal("show");   
+		});  
+ 
+        
+        $('#cbxConWorkId').on('change', function() {  
+            $(".tbxx").hide();   
+            $(".tb"+this.value).show();    
+        });
+ 
+
+        $('input[type=radio][name=homeowner]').change(function() { 
+            if (this.value == "2") {
+                $(".homeowner").removeClass("d-none");   
+                $(".homeowner").addClass("d-flex");   
+            }
+            else{  
+                $(".homeowner").removeClass("d-flex");   
+                $(".homeowner").addClass("d-none");   
+            }
+        }); 
+
+    </script>
+ 
+</body>
+</html>
