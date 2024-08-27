@@ -229,23 +229,42 @@
                                     <hr>
  
                                     <h5 class="mb-3"><b>ข้อมูลการทำงาน</b></h5> 
-                                    
-                                    <div class="col-12 col-md-6 d-flex align-items-center mb-3 position-relative">
-                                        <span class="wpx-150">ตำแหน่งงาน<span class="text-danger mx-1">*</span></span>
-                                        <input class="form-control mt-1" type="text" value=""> 
-                                    </div> 
-                                    <div class="col-12 col-md-6 d-flex align-items-center mb-3 position-relative">
-                                        <span class="wpx-150">แผนก<span class="text-danger mx-1">*</span></span>
-                                        <input class="form-control mt-1" type="text" value=""> 
-                                    </div> 
-                                    
-                                    <div class="col-12 col-md-12 d-flex align-items-center mb-3 position-relative">
-                                        <span class="wpx-150">หน้าที่ความรับผิดชอบงาน</span>
-                                        <textarea name="" id="" cols="30" rows="3" class="form-control"></textarea>
-                                    </div>
+
+                                    <h6>ประวัติการทำงาน</h6>
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>ครั้งที่</th>
+                                                <th>ตำแหน่งงาน</th>
+                                                <th>วันที่เริ่มงาน</th>
+                                                <th>วันที่สิ้นสุดการทำงาน</th>
+                                                <th>สาเหตุออกจากงาน</th>
+                                                <th>หมายเหตุ</th> 
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>เจ้าหน้าที่รักษาความปลอดภัย</td>
+                                                <td>30/12/2554</td>
+                                                <td>31/05/2556</td>
+                                                <td>ลาออก</td>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>เจ้าหน้าที่รักษาความปลอดภัย</td>
+                                                <td>01/03/2557</td>
+                                                <td>29/12/2560</td>
+                                                <td>ลาออก</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                     
                                     <div class="form-group mb-3 row align-items-center">
                                         <label class="col-md-2">
-                                            <a href="#" class="btn btn-primary mx-1 update pt-2"><label class="icon">+</label> เพิ่มข้อมูลการทำงาน</a>
+                                            <button type="button" class="btn btn-primary mx-1 update pt-2"  data-bs-toggle="modal" data-bs-target="#myModal112"> เพิ่มข้อมูลการทำงาน </button>
                                         </label> 
                                     </div> 
 
@@ -921,6 +940,93 @@
             </div>
         </div>
     </div> 
+
+    
+    <div class="modal fade" id="myModal112">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content"> 
+                <div class="modal-header">
+                    <h4 class="modal-title">เพิ่มข้อมูลการทำงาน</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">  
+                     
+
+                    <div class="col-12">
+                        <div class="row justify-content-center">
+                            <div class="col-10">
+                                <div class="row mt-3">
+                                    
+                                    <div class="row mb-3">
+                                        <div class="col-6">
+                                            <label class="mb-2">ตำแหน่งงาน</label>
+                                            <input type="text" class="form-control"> 
+                                        </div>
+                                        <div class="col-6">
+                                            <label class="mb-2">แผนก</label>
+                                            <input type="text" class="form-control"> 
+                                        </div>
+                                    </div>        
+                                    <div class="row mb-3">
+                                        <div class="col-12">
+                                            <label class="mb-2">หน้าที่รับผิดชอบงาน</label>
+                                            <input type="text" class="form-control"> 
+                                        </div>  
+                                    </div>   
+                                    <div class="row mb-3">
+                                        <div class="col-6">
+                                            <label class="mb-2">วันที่เริ่มงาน</label>
+                                            <input type="text" class="form-control"> 
+                                        </div>
+                                        <div class="col-6">
+                                            <label class="mb-2">วันที่สิ้นสุดการทำงาน</label>
+                                            <input type="text" class="form-control"> 
+                                        </div>
+                                    </div>   
+ 
+                                    <div class="row mb-3">
+                                        <div class="col-12 ">
+                                            <label class="mb-2">สาเหตุออกจากงาน</label>
+                                            <div class="position-relative">
+                                                <select class="form-control mt-1">
+                                                    <option value="0">สาเหตุออกจากงาน</option>
+                                                    <option value="1">พักงาน</option>
+                                                    <option value="2">ใหเออก</option>
+                                                    <option value="3">ลาออก</option> 
+                                                </select>
+                                                <i class="fal fa-chevron-down iconi"></i>
+                                            </div>
+                                        </div> 
+                                    </div>   
+                                    <div class="row mb-3">
+                                        <div class="col-12">
+                                            <label class="mb-2">หมายเหตุ</label>
+                                            <input type="text" class="form-control"> 
+                                        </div>
+                                    </div>   
+                                    
+                                    
+                                    
+
+ 
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="w-100 d-flex justify-content-center">
+                        <div class="w-25 pe-1">
+                            <button class="btn btn-outline-primary w-100">ยกเลิก</button>
+                        </div>
+                        <div class="w-25 ps-1">
+                            <button class="btn btn-primary w-100">บันทึก</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 	
 	<script src="js/jquery.min.js"></script>
 	<script src="js/popper.min.js" ></script>
