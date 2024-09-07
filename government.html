@@ -156,9 +156,9 @@
                                 <select name="conWork" id="cbxConWorkId" class="form-control">
                                     <option value="0" selected>-- งานราชการ --</option>
                                     <option value="1">ขอใบอนุญาตทำงานแรงงานต่างด้าว</option> 
-                                    <option value="23">ขอนำเข้าแรงงานต่างด้าว (MOU)</option> 
+                                    <option value="23" selected>ขอนำเข้าแรงงานต่างด้าว (MOU)</option> 
                                     <option value="3">แจ้งอยู่เกิน 90 วัน (ตม.)</option> 
-                                    <option value="4">แจ้งอยู่เกิน 90 วัน + ต่อ Work </option> 
+                                    <option value="4" >แจ้งอยู่เกิน 90 วัน + ต่อ Work </option> 
                                     <option value="5">แจ้งอยู่เกิน 90 วัน + ต่อ VISA </option> 
                                     <option value="6">แจ้งอยู่เกิน 90 วัน + ต่อ Work + ต่อ VISA</option> 
                                     <option value="7">ต่อ Passport</option> 
@@ -173,7 +173,7 @@
                                     <option value="16">เปลี่ยน/เพิ่ม ประเภทงาน เปลี่ยนหรือเพิ่มประเภทงานตามบัญชี 2,3 บต.45</option> 
                                     <option value="17">ต่อ VISA 1 ปี/2 ปี (นำเข้า MOU และตามมติ ครม. ในประเทศ)</option> 
                                     <option value="18">ตี VISA หน้าด่าน</option> 
-                                    <option value="19">ขึ้นทะเบียนแรงงานต่างต้าว มติ 5 ก.ค. 66 (คนเถื่อน)</option> 
+                                    <!-- <option value="19">ขึ้นทะเบียนแรงงานต่างต้าว มติ 5 ก.ค. 66 (คนเถื่อน)</option>  -->
                                     <option value="20">ทำบัตรชมพู</option> 
                                     <option value="21">ขอลงตรา VISA </option>  
                                 </select> 
@@ -1220,39 +1220,7 @@
                                                 </a> 
                                             </div>
                                         </td>
-                                    </tr>   
-                                    <tr>
-                                        <td class="text-center">6</td>
-                                        <td class="text-left">28/02/2567</td>
-                                        <td class="text-left">WJ-01021230800001</td>
-                                        <td class="text-left">หจก.ประจักษ์เป็ดย่าง</td> 
-                                        <td class="text-center"> 
-                                            <div class="w-100 d-flex justify-content-center">
-                                                <div class="pointer hpx-30 wpx-150 rounded bg-primary-light mx-1 d-flex justify-content-center align-items-center" data-bs-toggle="modal" data-bs-target="#myModal6x6">
-                                                    <label class="pointer text-primary p-2">ส่งเอกสารคืน     </label>
-                                                </div>   
-                                            </div>
-                                        </td> 
-                                        <td class="text-left">สุปรียา</td> 
-                                        <td class="text-center update">
-                                            <div class="w-100 d-flex justify-content-center">
-                                                <a href="job-flow3.html" style="text-decoration: none;">
-                                                    <div class="pointer rounded  hpx-30 bg-primary-light mx-1 d-flex justify-content-center align-items-center ">
-                                                        <label class="pointer text-primary p-2">ใบรับเรื่อง</label>
-                                                    </div> 
-                                                </a>  
-                                            </div>
-                                        </td>
-                                        <td class="text-center update"> 
-                                            <div class="w-100 d-flex justify-content-center">
-                                                <a href="name-list-job3.html" style="text-decoration: none;">
-                                                    <div class="pointer wpx-130 hpx-30 rounded bg-warning-light mx-1 d-flex justify-content-center align-items-center" >
-                                                        <label class="pointer text-primary p-2">Name List </label>
-                                                    </div>
-                                                </a> 
-                                            </div>
-                                        </td>
-                                    </tr>   
+                                    </tr>    
                                     <tr>
                                         <td class="text-center">7</td>
                                         <td class="text-left">28/02/2567</td>
@@ -3402,7 +3370,7 @@
                         </div> 
                         <div class="tbxx tb23" style="display: block;">
                             <h5>นำเข้าแรงงานต่างด้าว</h5>
-                            <table class="table table-borderless table-striped tablex">
+                            <table class="table table-borderless table-hover table-striped tablex">
                                 <thead class="bg-primary">
                                     <tr>
                                         <th class="text-center text-white">ลำดับ</th>
@@ -3507,7 +3475,7 @@
                                             </div>
                                         </td> 
                                     </tr>    
-                                    <tr>
+                                    <!-- <tr>
                                         <td class="text-center">5</td>
                                         <td class="text-left">28/02/2567</td>
                                         <td class="text-left">WJ-01021230800001</td>
@@ -3529,7 +3497,7 @@
                                                 </a>  
                                             </div>
                                         </td> 
-                                    </tr>    
+                                    </tr>     -->
                                     <tr>
                                         <td class="text-center">6</td>
                                         <td class="text-left">28/02/2567</td>
@@ -3599,7 +3567,7 @@
                                             </div>
                                         </td> 
                                     </tr>           
-                                    <tr>
+                                    <!-- <tr>
                                         <td class="text-center">9</td>
                                         <td class="text-left">28/02/2567</td>
                                         <td class="text-left">WJ-01021230800001</td>
@@ -3621,7 +3589,7 @@
                                                 </a>  
                                             </div>
                                         </td> 
-                                    </tr> 
+                                    </tr>  -->
                                     <tr>
                                         <td class="text-center">10</td>
                                         <td class="text-left">28/02/2567</td>
@@ -13801,29 +13769,8 @@
                     <br>  
                     
                     <h5>สถานะถัดไป</h5>
-                    <h6>รอจัดส่งเอกสาร   </h6>
- 
-                    <div class="p-3 border">
-                        <div class="col-12 col-md-6 d-flex align-items-center mb-3"> 
-                            <div class="wpx-150">จัดส่งเอกสารให้ลูกค้า</div> 
-                            <input type="radio" name="drive" id="drive_1" value="1">
-                            <label for="drive_1">&nbsp;Line </label> 
-                            <input type="radio" name="drive" id="drive_2" value="2" class="ms-2" >
-                            <label for="drive_2">&nbsp;Messenger </label>
-                            <input type="radio" name="drive" id="drive_3" value="3" class="ms-2" >
-                            <label for="drive_3">&nbsp;ไปรษณีย์ </label>
-                        </div> 
-                    
-                        <div class="col-12 col-md-6 d-flex align-items-center mb-3 position-relative">
-                            <span class="wpx-150">วันที่ส่งเอกสาร<span class="text-danger mx-1">*</span></span>
-                            <input class="form-control mt-1" type="text"  >
-                            <i class="fal fa-calendar-alt iconi"></i>
-                        </div>
-                        <div class="col-12 col-md-12  mb-3"> 
-                            <label class="mb-2">หมายเหตุ </label>
-                            <textarea  class="form-control" cols="30" rows="4"></textarea>
-                        </div>  
-                    </div>
+                    <h6>ต่ออายุสำเร็จ </h6>
+  
                  
                 </div>
                 <div class="modal-footer">
@@ -22105,7 +22052,7 @@
                     <br> 
                     <br>
 
-                    <div class="p-3 border">
+                    <div class="p-3 border d-none">
                         <div class="col-12 col-md-6 d-flex align-items-center mb-3 position-relative"> 
                             <div class="wpx-150">Agency</div>  
                             <select class="form-control mt-1">
@@ -22954,32 +22901,46 @@
                     
                     
                     <h5>สถานะถัดไป</h5>
-                    <h6>ส่งเอกสารให้ Agency ต้นทาง</h6> 
+                    <h6>รอบันทึก Namelist</h6> 
                     <br>  
-                     
-                    <br>  
-
-                    <div class="p-3 border">
-                        <div class="col-12 col-md-6 d-flex align-items-center mb-3"> 
-                            <div class="wpx-150">จัดส่งเอกสารให้ลูกค้า</div> 
-                            <input type="radio" name="drive" id="drive_1" value="1">
-                            <label for="drive_1">&nbsp;Line </label> 
-                            <input type="radio" name="drive" id="drive_2" value="2" class="ms-2" >
-                            <label for="drive_2">&nbsp;Messenger </label>
-                            <input type="radio" name="drive" id="drive_3" value="3" class="ms-2" >
-                            <label for="drive_3">&nbsp;ไปรษณีย์ </label>
-                        </div> 
-                    
-                        <div class="col-12 col-md-6 d-flex align-items-center mb-3 position-relative">
-                            <span class="wpx-150">วันที่ส่งเอกสาร<span class="text-danger mx-1">*</span></span>
-                            <input class="form-control mt-1" type="text"  >
-                            <i class="fal fa-calendar-alt iconi"></i>
-                        </div>
-                        <div class="col-12 col-md-12  mb-3"> 
-                            <label class="mb-2">หมายเหตุ </label>
-                            <textarea  class="form-control" cols="30" rows="4"></textarea>
-                        </div>  
+                    <div class="table-responsive">
+                        <table class="table table-borderless table-striped">
+                            <thead class="bg-primary">
+                                <tr>
+                                    <th class="text-center text-white">ลำดับ</th>
+                                    <th class="text-left text-white">ชื่อ-นามสกุล</th>  
+                                    <th class="text-left text-white update">namelist</th> 
+                                    <th class="text-center text-white update">ประกันสุขภาพ</th>   
+                                    <th class="text-center text-white update">รูป </th> 
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="text-center">1</td>
+                                    <td class="text-left">ยาดานา</td>    
+                                    <td class="text-center"><input type="text" class="form-control wpx-200"></td>  
+                                    <td class="text-center"><button class="btn btn-primary btn-xs">แนบไฟล์</button></td>  
+                                    <td class="text-center"><button class="btn btn-primary btn-xs">แนบไฟล์</button></td>   
+                                </tr>  
+                                <tr>
+                                    <td class="text-center">2</td>
+                                    <td class="text-left">ยาดานา</td>    
+                                    <td class="text-center"><input type="text" class="form-control wpx-200"></td>  
+                                    <td class="text-center"><button class="btn btn-primary btn-xs">แนบไฟล์</button></td>  
+                                    <td class="text-center"><button class="btn btn-primary btn-xs">แนบไฟล์</button></td>   
+                                </tr> 
+                                <tr>
+                                    <td class="text-center">3</td>
+                                    <td class="text-left">ยาดานา</td>    
+                                    <td class="text-center"><input type="text" class="form-control wpx-200"></td>  
+                                    <td class="text-center"><button class="btn btn-primary btn-xs">แนบไฟล์</button></td>  
+                                    <td class="text-center"><button class="btn btn-primary btn-xs">แนบไฟล์</button></td>   
+                                </tr> 
+                            </tbody>
+                        </table>
                     </div>
+
+              
 
                 </div>
                 <div class="modal-footer">
