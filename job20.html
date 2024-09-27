@@ -141,13 +141,13 @@
                     <div class="overlay" role="button" tabindex="0" aria-label="overlay"></div>
                 </div>
             </div>
-            <div class="body p-4">
-                <div class="col">
+            <div class="main p-4">
+                <div class="col"> 
                     <div class="row">
                         <div class="col-lg-6 col-12">
                             <h3 class="mb-3"><b>งานราชการ </b></h3> 
                         </div>
-                        <div class="col-lg-6 col-12">
+                        <div class="col-lg-6 col-12 text-end">
                             <a href="government-add.html" class="btn btn-primary mx-1 update pt-2">
                                 <label class="icon">+</label> เปิดเรื่อง
                             </a>
@@ -233,7 +233,7 @@
                                         </td>
                                         <td class="text-center update">
                                             <div class="w-100 d-flex justify-content-center">
-                                                <a href="job21-view.html" class="btn pb-0  bg-primary-light">
+                                                <a href="job20-view.html" class="btn pb-0  bg-primary-light">
                                                     <i class="fal fa-eye"></i>
                                                 </a>  
                                             </div>
@@ -253,7 +253,7 @@
                                         </td>
                                         <td class="text-center update">
                                             <div class="w-100 d-flex justify-content-center">
-                                                <a href="job21-view.html" class="btn pb-0  bg-primary-light">
+                                                <a href="job20-view.html" class="btn pb-0  bg-primary-light">
                                                     <i class="fal fa-eye"></i>
                                                 </a>  
                                             </div>
@@ -273,7 +273,7 @@
                                         </td>
                                         <td class="text-center update">
                                             <div class="w-100 d-flex justify-content-center">
-                                                <a href="job21-view.html" class="btn pb-0  bg-primary-light">
+                                                <a href="job20-view.html" class="btn pb-0  bg-primary-light">
                                                     <i class="fal fa-eye"></i>
                                                 </a>  
                                             </div>
@@ -293,7 +293,7 @@
                                         </td>
                                         <td class="text-center update">
                                             <div class="w-100 d-flex justify-content-center">
-                                                <a href="job21-view.html" class="btn pb-0  bg-primary-light">
+                                                <a href="job20-view.html" class="btn pb-0  bg-primary-light">
                                                     <i class="fal fa-eye"></i>
                                                 </a>  
                                             </div>
@@ -307,13 +307,13 @@
                                         <td class="text-center"> 
                                             <div class="w-100 d-flex justify-content-center">   
                                                 <button class="btn bg-danger-light btn-sm" data-bs-toggle="modal" data-bs-target="#myModal21x5">
-                                                    ต่ออายุสำเร็จ 
+                                                    ปิดงาน 
                                                 </button>
                                             </div>
                                         </td>
                                         <td class="text-center update">
                                             <div class="w-100 d-flex justify-content-center">
-                                                <a href="job21-view.html" class="btn pb-0  bg-primary-light">
+                                                <a href="job20-view.html" class="btn pb-0  bg-primary-light">
                                                     <i class="fal fa-eye"></i>
                                                 </a>  
                                             </div>
@@ -541,7 +541,7 @@
                             <div class="col-lg-4 col-md-6 col-12 mb-3"> 
                                 <label class="mb-2" for="status">สถานที่ </label>
                                 <div class="position-relative">
-                                    <select id="location" class="js-example-basic-multiple w-100 icon-input">  
+                                    <select id="location212" class="js-example-basic-multiple w-100 icon-input">  
                                         <option value="0">-- สถานที่ --</option> 
                                         <option value="1">สถานที่</option>
                                         <option value="1">สถานที่</option>
@@ -688,7 +688,7 @@
                             <div class="col-lg-4 col-md-6 col-12 mb-3"> 
                                 <label class="mb-2" for="status">สถานที่ </label>
                                 <div class="position-relative">
-                                    <select id="location" class="js-example-basic-multiple w-100 icon-input">  
+                                    <select id="location213" class="js-example-basic-multiple w-100 icon-input">  
                                         <option value="0">-- สถานที่ --</option> 
                                         <option value="1">สถานที่</option>
                                         <option value="1">สถานที่</option>
@@ -767,7 +767,7 @@
                             <div class="col-lg-4 col-md-6 col-12 mb-3"> 
                                 <label class="mb-2" for="status">สถานที่ </label>
                                 <div class="position-relative">
-                                    <select id="location" class="js-example-basic-multiple w-100 icon-input">  
+                                    <select id="location214" class="js-example-basic-multiple w-100 icon-input">  
                                         <option value="0">-- สถานที่ --</option> 
                                         <option value="1" selected>กรมการกงสุล แจ้งวัฒนะ</option>
                                         <option value="1">สถานที่</option>
@@ -972,10 +972,9 @@
 	<script>
         
         $(document).ready(function() { 
-            $('.js-example-basic-multiple').select2();      
+            $('.js-example-basic-multiple').select2();   
             $('#user2').prop('disabled', true);
-            $('#location2').prop('disabled', true); 
-            
+            $('#location2').prop('disabled', true);   
         });    
 
         $('#page-selector').select2();
